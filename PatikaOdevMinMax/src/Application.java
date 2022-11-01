@@ -16,6 +16,7 @@ public class Application {
 		
 		for(int i = 0; i <  array.length; i++) {
 			System.out.println("Please enter " + (i+1) + ". number in array : ");
+			// dışardan aldığımız sayıları arrayimizin içine atıyoruz
 			array[i] = scanner.nextInt();
 			
 			if(i == 1) {
